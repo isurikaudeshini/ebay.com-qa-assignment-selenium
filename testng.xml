@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Test Suite" parallel="false">
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://www.ebay.com/"></parameter>
+        <classes>
+            <class name="com.ebay.pages.HomePage"/>
+            <class name="com.ebay.pages.CartPage"/>
+        </classes>
+    </test>
+    <test name="Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <parameter name="url" value="https://www.ebay.com/"></parameter>
+        <classes>
+            <class name="com.ebay.pages.HomePage"/>
+            <class name="com.ebay.pages.CartPage"/>
+        </classes>
+    </test>
+</suite>
