@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # selenium-java-ebay
-=======
 #### ebay.com-qa-assignment-selenium
 
 # Selenium Automation assignment
